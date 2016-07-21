@@ -1,0 +1,146 @@
+@CHARSET "ISO-8859-1";
+
+html, body
+{
+    background-color: #DEDEDE;
+    font-family: fantasy;
+   
+}
+header
+{
+    background-color:  #F25E5E;
+    border-radius: 47px;
+}
+#wrapper
+{
+    text-align: center;
+    width:80%;
+	background-color:  #CDE696;
+	margin:auto;
+	margin-top: 5%;
+	border-radius: 50px;
+	min-width: 300px;
+	border: solid;
+	max-width: 1000px;
+}
+li
+{
+    display:inline;
+    
+       
+}
+ul a
+{
+	color: #000000;
+    margin:auto; 
+    padding:0 2%;
+    transition-property:all;
+    transition-duration: 0.2s;
+    transition-timing-function:linear;
+    line-height: 20px;
+    font-size: 14px;  
+    text-decoration: none;                      
+}
+ul a:visited
+{
+	color: black;
+}
+ul a:hover
+{  
+   font-size: 150%;
+   font-size: 20px
+}
+img
+{
+    width: 85%;
+    height: auto;
+}	
+#logo 
+{
+  width: 100%; 
+  height: auto;
+}
+
+#footer1 
+{
+    position:fixed;
+    bottom: 0px;
+	color:#666;
+    width: 80%;
+    height: 3em; 
+}
+p
+{
+ font-family: Arial;    
+}
+ul
+{
+    height: 2em; 
+    padding-left: 0;     
+}
+
+.normaltext
+{
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+#textaufz
+{
+    text-align: left;
+    padding-left: 10%;
+    font-family: Arial;
+    list-style-type:disc;  
+}
+#frontpagepic
+{
+    width: 50%;
+    height: auto;
+}
+.media
+{
+    width: 60%;
+    height: auto; 
+    float:none;   
+}
+#teamtext1
+{
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#teamtext2
+{
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    clear: right;
+}
+#teamtext3
+{
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    clear: both;
+}
+
+
+#profile1
+{
+    width: 180px;
+    height: auto;
+    float: left;
+    padding-left: 7%;
+    padding-right: 4%;
+}
+#profile2
+{
+    width: 180px;
+    height: auto;
+    float: left;
+    padding-left: 7%;
+    padding-right: 4%;
+    clear: both;	
+}
