@@ -1,5 +1,6 @@
 <?php
-if (!defined('EDER'))
+	if (! defined ( 'session' ))
 	{
-		die;
-}
+		die ();
+	}
+?>
