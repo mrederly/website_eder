@@ -1,5 +1,5 @@
 <?php
-if (! defined ( 'kiosk' )) {
+if (! defined ( 'session' )) {
 	die ();
 	
 getHead ();
