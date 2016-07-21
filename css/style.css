@@ -1,0 +1,16 @@
+.container
+{
+	display: -webkit-flex;
+  	display: flex;
+}
+
+.login
+{
+	width: 20%;	
+}
+
+.stuff
+{
+	-webkit-flex: 1;
+          flex: 1;
+}

@@ -9,6 +9,8 @@
 	{
 		getHeader();
 		?>
+				<div class="container">	
+					<div class ="login">
 					<br> Username
 					<input id="username" name="username" type="text" />
 					<br> Kennwort
@@ -34,6 +36,11 @@
 						objAjax.send("username="+username+"&password="+password);
 					}
 					</script>
+					</div>
+					<div class ="stuff">
+					<h1>M÷÷÷P</h1>
+					</div>
+				</div>
 					<?php
 					
 			getFooter();
@@ -43,7 +50,7 @@
 		?>
 				<HTML>
 					<head>
-						<title>Wohoo ein Projekt!</title>
+						<title>Website_Eder</title>
 							<script type="text/javascript">
 						
 		
@@ -83,6 +90,7 @@
 								}
 							}
 							</script>
+							<link href="css/style.css" type="text/css" rel="stylesheet" />
 					</head>
 					<body onload="updateClock(); setInterval('updateClock()', 1000 )">
 			<?php 
@@ -93,6 +101,7 @@
 			?>
 					<div style="width: 10em; text-align: center; margin: 20px auto;">
 						<span id="clock">&nbsp;</span>
+					</div>
 					</div>
 					</body>
 				</HTML>
